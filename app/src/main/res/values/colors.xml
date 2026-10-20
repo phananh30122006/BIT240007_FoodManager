@@ -1,0 +1,32 @@
+<resources>
+    <color name="primary">#E65100</color>
+    <color name="primary_dark">#BF360C</color>
+    <color name="primary_light">#FFE0B2</color>
+    <color name="accent">#FF9800</color>
+    
+    <color name="background">#F5F6F8</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="divider">#E0E0E0</color>
+    
+    <color name="status_online">#2E7D32</color>
+    <color name="status_offline">#E65100</color>
+    <color name="status_syncing">#0288D1</color>
+    
+    <color name="badge_quick_bg">#E8F5E9</color>
+    <color name="badge_quick_text">#1B5E20</color>
+    <color name="badge_regular_bg">#FFF3E0</color>
+    <color name="badge_regular_text">#E65100</color>
+    
+    <color name="status_available_bg">#E8F8F0</color>
+    <color name="status_available_text">#2E7D32</color>
+    <color name="status_unavailable_bg">#FFEBEE</color>
+    <color name="status_unavailable_text">#C62828</color>
+    
+    <color name="color_delete">#D32F2F</color>
+    <color name="color_edit">#1976D2</color>
+</resources>

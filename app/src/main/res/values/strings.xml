@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">BIT240007_FoodManager</string>
+    <string name="student_info">Nguyễn Phan Anh - BIT240007</string>
+    
+    <!-- Navigation / Headers -->
+    <string name="title_dishes">Food Manager</string>
+    <string name="title_add_dish">Add New Dish</string>
+    <string name="title_edit_dish">Edit Dish</string>
+    <string name="title_dish_details">Dish Details</string>
+    <string name="title_categories">Manage Categories</string>
+    <string name="title_add_category">Add Category</string>
+
+    <!-- Sync & Network Status -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline Mode (Local Storage)</string>
+    <string name="status_syncing">Syncing with MockAPI...</string>
+    <string name="status_synced">Synced</string>
+    <string name="status_pending_sync">Pending Sync</string>
+    <string name="mockapi_settings">MockAPI Settings</string>
+
+    <!-- Dish Properties -->
+    <string name="dish_name">Dish Name</string>
+    <string name="dish_category">Category</string>
+    <string name="dish_price">Price (VND)</string>
+    <string name="dish_prep_time">Prep Time (mins)</string>
+    <string name="dish_available">Available for sale</string>
+    <string name="dish_status">Status</string>
+    <string name="dish_description">Description</string>
+    <string name="dish_images">Dish Images</string>
+    <string name="image_url">Image URL</string>
+    <string name="add_image">Add Image</string>
+    <string name="is_thumbnail">Thumbnail</string>
+    <string name="set_thumbnail">Set as Thumbnail</string>
+
+    <!-- Badges / Classifications -->
+    <string name="badge_quick">Quick</string>
+    <string name="badge_regular">Regular</string>
+    <string name="status_available">Available</string>
+    <string name="status_unavailable">Unavailable</string>
+
+    <!-- Actions & Buttons -->
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_add_dish">+ Add Dish</string>
+    <string name="btn_filter">Filter</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_sync_now">Sync Now</string>
+
+    <!-- Search & Filter -->
+    <string name="search_hint">Search dish name...</string>
+    <string name="filter_all_categories">All Categories</string>
+    <string name="filter_all_status">All Statuses</string>
+    <string name="filter_only_available">Available Only</string>
+    <string name="filter_min_price">Min Price</string>
+    <string name="filter_max_price">Max Price</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_default">Default</string>
+    <string name="sort_price_asc">Price: Low to High</string>
+    <string name="sort_price_desc">Price: High to Low</string>
+    <string name="sort_prep_asc">Prep Time: Quickest</string>
+
+    <!-- Category Fields -->
+    <string name="category_name">Category Name</string>
+    <string name="category_description">Category Description</string>
+    <string name="no_categories">No categories found.</string>
+
+    <!-- Empty States & Warnings -->
+    <string name="empty_dishes">No dishes found matching criteria.</string>
+    <string name="no_images">No images available</string>
+    <string name="image_load_failed">Image unavailable</string>
+
+    <!-- Confirmation Dialogs -->
+    <string name="confirm_delete_title">Confirm Deletion</string>
+    <string name="confirm_delete_dish_msg">Are you sure you want to delete "%1$s"?</string>
+    <string name="confirm_delete_cat_msg">Are you sure you want to delete category "%1$s"?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="err_name_empty">Name cannot be empty</string>
+    <string name="err_price_invalid">Price must be greater than 0</string>
+    <string name="err_prep_time_invalid">Preparation time must be greater than 0</string>
+    <string name="err_category_invalid">Please select a valid category</string>
+    <string name="err_duplicate_name">A dish with this name already exists in this category</string>
+    <string name="err_price_range_invalid">Min price cannot be greater than Max price</string>
+    <string name="err_cannot_delete_cat_in_use">Cannot delete this category because dishes are currently assigned to it</string>
+    <string name="err_dish_not_found">Dish not found</string>
+    <string name="err_image_url_empty">Please enter a valid Image URL</string>
+    <string name="msg_dish_saved">Dish saved successfully</string>
+    <string name="msg_dish_deleted">Dish deleted successfully</string>
+    <string name="msg_category_saved">Category saved successfully</string>
+    <string name="msg_category_deleted">Category deleted successfully</string>
+
+    <!-- Language Switch -->
+    <string name="switch_language">Tiếng Việt</string>
+    <string name="current_language">Language: English</string>
+</resources>
